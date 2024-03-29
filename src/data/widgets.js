@@ -18,18 +18,18 @@ const TestnetWidgets = {
 };
 
 const MainnetWidgets = {
-  image: "mob.near/widget/Image",
-  default: "mattb.near/widget/NDC.Views.Home",
-  viewSource: "mob.near/widget/WidgetSource",
-  widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
-  widgetMetadata: "mob.near/widget/WidgetMetadata",
-  profileImage: "mob.near/widget/ProfileImage",
-  notificationButton: "mob.near/widget/NotificationButton",
-  profilePage: "near/widget/ProfilePage",
-  profileName: "patrick.near/widget/ProfileName",
-  editorComponentSearch: "mob.near/widget/Editor.ComponentSearch",
-  profileInlineBlock: "mob.near/widget/Profile.InlineBlock",
-  viewHistory: "bozon.near/widget/WidgetHistory",
+ // image: "mob.near/widget/Image",
+ // default: "mattb.near/widget/NDC.Views.Home",
+ // viewSource: "mob.near/widget/WidgetSource",
+ // widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
+ // widgetMetadata: "mob.near/widget/WidgetMetadata",
+ // profileImage: "mob.near/widget/ProfileImage",
+ // notificationButton: "mob.near/widget/NotificationButton",
+ // profilePage: "near/widget/ProfilePage",
+ // profileName: "patrick.near/widget/ProfileName",
+ // editorComponentSearch: "mob.near/widget/Editor.ComponentSearch",
+ // profileInlineBlock: "mob.near/widget/Profile.InlineBlock",
+ // viewHistory: "bozon.near/widget/WidgetHistory",
 };
 
 export const Widgets =

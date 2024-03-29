@@ -166,7 +166,6 @@ function App(props) {
               <EmbedPage {...passProps} />
             </Route>
             <Route path={"/edit/:widgetSrc*"}>
-              <NavigationWrapper {...passProps} />
               <EditorPage {...passProps} />
             </Route>
             <Route path={"/:widgetSrc*"}>

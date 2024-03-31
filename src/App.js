@@ -158,7 +158,7 @@ function App(props) {
   };
 
   return (
-    <div className="App">
+    <div className="">
       <EthersProviderContext.Provider value={ethersProviderContext}>
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>

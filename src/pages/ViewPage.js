@@ -36,7 +36,7 @@ export default function ViewPage(props) {
   }, [src, query, setWidgetSrc, viewSourceWidget]);
 
   return (
-    <div className="container-xl">
+    
       <div className="row">
         <div
           className="d-inline-block position-relative overflow-hidden"
@@ -48,6 +48,6 @@ export default function ViewPage(props) {
           <Widget key={src} src={src} props={widgetProps} />{" "}
         </div>
       </div>
-    </div>
+    
   );
 }

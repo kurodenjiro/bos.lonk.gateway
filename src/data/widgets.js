@@ -19,7 +19,7 @@ const TestnetWidgets = {
 
 const MainnetWidgets = {
  // image: "mob.near/widget/Image",
-  default: "huunhanz.near/widget/Lonk.Index",
+  default: "louisdevzz.nearr/widget/Lonk.Index",
  // viewSource: "mob.near/widget/WidgetSource",
  // widgetMetadataEditor: "mob.near/widget/WidgetMetadataEditor",
  // widgetMetadata: "mob.near/widget/WidgetMetadata",

@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { Close } from "../../icons/Close";
-import { Home } from "../../icons/Home";
-import { Book } from "../../icons/Book";
 import { Code } from "../../icons/Code";
 import { LogOut } from "../../icons/LogOut";
 import { Fork } from "../../icons/Fork";
-import { UserCircle } from "../../icons/UserCircle";
 import { Widget } from "near-social-vm";
+
 import { NavigationButton } from "../NavigationButton";
 import { SignInButton } from "../SignInButton";
 import { Link } from "react-router-dom";
@@ -35,7 +33,7 @@ const StyledMenu = styled.div`
 
   .left-side {
     flex: 80;
-    background-color: var(--slate-dark-1);
+    background-color: #fff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -66,7 +64,7 @@ const StyledMenu = styled.div`
     }
 
     .profile-username {
-      color: var(--slate-dark-11);
+      color: #31cf34;
     }
 
     .profile-name,
@@ -84,7 +82,7 @@ const StyledMenu = styled.div`
       padding: 28px 0;
       display: flex;
       align-items: center;
-      color: var(--slate-dark-11);
+      color: #31cf34;
       font-weight: var(--font-weight-bold);
 
       svg {
@@ -188,38 +186,79 @@ export function Menu(props) {
         <ul className="top-links">
           <li>
             <NavigationButton route="/">
-              <Home />
               Home
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton
-              disabled={!props.signedIn}
-              route={`/${props.widgets.profilePage}?accountId=${props.signedAccountId}`}
-            >
-              <UserCircle />
-              Profile
-            </NavigationButton>
-          </li>
-            <li>
-            <NavigationButton href="https://neardc.org/apply">
-              <Book />
-              Forum
-            </NavigationButton>
-
-          </li>
-          <li>
-            <NavigationButton href="https://neardc.org/telegram">
-              <Book />
-              Community
+            <NavigationButton href="#how">
+              how to buy
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton route="/election.ndctools.near/widget/NDC.Elections.Main">
-              <Code />
-              Election
+            <NavigationButton href="#token">
+              tokenomic
             </NavigationButton>
-            </li>
+          </li>
+          <li>
+            <NavigationButton href="#roadmap">
+              roadmap
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="#">
+             Bridge to near            
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.etherum">
+             - from Ethereum        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.solana">
+             - from Solana        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Arbitrum        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Optimism        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Polygon        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Fantom        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Avalance        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from BSC        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from SUI        
+            </NavigationButton>
+          </li>
+          <li>
+            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+             - from Aptos        
+            </NavigationButton>
+          </li>
         </ul>
         <ul className="bottom-links">
           {props.widgetSrc?.edit && (

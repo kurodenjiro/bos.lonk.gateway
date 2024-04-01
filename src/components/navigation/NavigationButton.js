@@ -4,11 +4,13 @@ import { NavLink } from "react-router-dom";
 
 const StyledNavigationButton = styled.div`
   a {
-    color: var(--slate-dark-11);
-    font-size: 16px;
-    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Lakki Reddy,cursive;
+    text-shadow: 0 4px 4px #00000040;
+    text-transform: lowercase;
+    margin-block-end: 0.33em;
     border-radius: 8px;
-    font-weight: var(--font-weight-bold);
     height: 40px;
     display: flex;
     align-items: center;
@@ -18,7 +20,6 @@ const StyledNavigationButton = styled.div`
     &.active {
       color: white;
       text-decoration: none;
-      background-color: var(--slate-dark-6);
     }
   }
   &.disabled {
@@ -28,7 +29,7 @@ const StyledNavigationButton = styled.div`
 
 export function NavigationButton(props) {
   return (
-    <StyledNavigationButton className={props.disabled ? "disabled" : ""}>
+    <StyledNavigationButton className={props.disabled ? "disabled" : " p-1 p-lg-3"}>
       {props.route ? (
         <NavLink
           onClick={(e) => {
@@ -42,7 +43,7 @@ export function NavigationButton(props) {
           {props.children}
         </NavLink>
       ) : (
-        <a href={props.href} target="_blank" rel="noopener noreferrer">
+        <a href={props.href}  rel="noopener noreferrer">
           {props.children}
         </a>
       )}

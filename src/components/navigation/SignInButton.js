@@ -1,10 +1,10 @@
 import React from "react";
-import { GrayBorderButton } from "../common/buttons/GrayBorderButton";
+import { LonkBorderButton } from "../common/buttons/LonkBorderButton";
 
 export function SignInButton(props) {
   return (
-    <GrayBorderButton className="nav-sign-in-btn" onClick={props.onSignIn}>
+    <LonkBorderButton className="nav-sign-in-btn" onClick={props.onSignIn}>
       Sign In
-    </GrayBorderButton>
+    </LonkBorderButton>
   );
 }

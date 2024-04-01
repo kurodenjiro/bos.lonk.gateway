@@ -6,6 +6,7 @@ import { NavigationButton } from "../NavigationButton";
 import { ArrowUpRight } from "../../icons/ArrowUpRight";
 import { SignInButton } from "../SignInButton";
 import { UserDropdown } from "./UserDropdown";
+import { MenuDropdown } from "./MenuDropdown";
 import { DevActionsDropdown } from "./DevActionsDropdown";
 import { NotificationWidget } from "../NotificationWidget";
 
@@ -15,7 +16,7 @@ const StyledNavigation = styled.div`
   left: 0;
   right: 0;
   width: 100%;
-  background-color: var(--slate-dark-1);
+  background-color: #31cf34;
   z-index: 1000;
   padding: 12px 0;
 
@@ -67,23 +68,25 @@ export function DesktopNavigation(props) {
         <Link to="/" className="logo-link">
           <Logotype />
         </Link>
-        <div className="navigation-section">
-          <NavigationButton route="/">Home</NavigationButton>
-
-
-          <NavigationButton href="https://neardc.org/apply">
-            Forum
-            <ArrowUpRight />
-          </NavigationButton>
-          <NavigationButton href="https://neardc.org/telegram">
-            Community
-            <ArrowUpRight />
-          </NavigationButton>
-          <NavigationButton route="/election.ndctools.near/widget/NDC.Elections.Main">Election</NavigationButton>
-          {false &&           <NavigationButton route="/nomination.ndctools.near/widget/NDC.Nomination.Page">Nominations</NavigationButton>}
-        </div>
         <div className="user-section">
-          <DevActionsDropdown {...props} />
+          <div className="navigation-section">
+            <NavigationButton route="/">Home</NavigationButton>
+            <NavigationButton href="#about">
+              about
+            </NavigationButton>
+            <NavigationButton href="#how">
+              how to buy
+            </NavigationButton>
+            <MenuDropdown></MenuDropdown>
+            <NavigationButton href="#token">
+              tokenomic
+            </NavigationButton>
+            <NavigationButton href="#roadmap">
+              roadmap
+            </NavigationButton>
+
+          </div>
+          {/* <DevActionsDropdown {...props} /> */}
           {!props.signedIn && (
             <SignInButton onSignIn={() => props.requestSignIn()} />
           )}

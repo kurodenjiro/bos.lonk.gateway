@@ -170,6 +170,7 @@ function App(props) {
               <EditorPage {...passProps} />
             </Route>
             <Route path={"/:widgetSrc*"}>
+              <NavigationWrapper {...passProps} />
               <ViewPage {...passProps} />
             </Route>
           </Switch>

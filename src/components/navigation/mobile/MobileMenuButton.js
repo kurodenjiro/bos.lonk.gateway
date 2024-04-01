@@ -6,10 +6,16 @@ const StyledMobileMenuButton = styled.button`
   border: none;
   display: flex;
   align-items: center;
-  color: white;
   font-weight: var(--font-weight-bold);
-  padding: 0;
 
+  color: #fff;
+  font-size: 20px;
+  font-family: Lakki Reddy,cursive;
+  
+  text-shadow: 0 4px 4px #00000040;
+  text-transform: lowercase;
+
+  
   .menu {
     width: 18px;
     height: 24px;

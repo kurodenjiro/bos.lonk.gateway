@@ -16,7 +16,6 @@ const StyledDropdown = styled.div`
 
     &:after {
       margin: 0 15px;
-      border-top-color: var(--slate-dark-11);
     }
 
     img {

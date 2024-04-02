@@ -33,7 +33,7 @@ const StyledMenu = styled.div`
 
   .left-side {
     flex: 80;
-    background-color: #fff;
+    background-color: #31cf34;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ const StyledMenu = styled.div`
       padding: 28px 0;
       display: flex;
       align-items: center;
-      color: #31cf34;
+      color: white;
       font-weight: var(--font-weight-bold);
 
       svg {
@@ -261,28 +261,6 @@ export function Menu(props) {
           </li>
         </ul>
         <ul className="bottom-links">
-          {props.widgetSrc?.edit && (
-            <li>
-              <Link to={`/edit/${props.widgetSrc?.edit}`}>
-                <Fork />
-                {props.widgetSrc.edit.startsWith(
-                  `${props.signedAccountId}/widget/`
-                )
-                  ? "Edit widget"
-                  : "Fork widget"}
-              </Link>
-            </li>
-          )}
-          {props.widgetSrc?.view && (
-            <li>
-              <Link
-                to={`/${props.widgets.viewSource}?src=${props.widgetSrc?.view}`}
-              >
-                <Code />
-                View source
-              </Link>
-            </li>
-          )}
           {props.signedIn && (
             <li>
               <button onClick={() => props.logOut()} className="log-out-button">

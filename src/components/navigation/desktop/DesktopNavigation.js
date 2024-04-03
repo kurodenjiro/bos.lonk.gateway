@@ -23,7 +23,7 @@ const StyledNavigation = styled.div`
   .user-section {
     margin-left: auto;
     > button {
-      font-size: 14px;
+      font-size: 20px;
     }
   }
 
@@ -92,9 +92,6 @@ export function DesktopNavigation(props) {
           )}
           {props.signedIn && (
             <>
-              <NotificationWidget
-                notificationButtonSrc={props.widgets.notificationButton}
-              />
               <UserDropdown {...props} />
             </>
           )}

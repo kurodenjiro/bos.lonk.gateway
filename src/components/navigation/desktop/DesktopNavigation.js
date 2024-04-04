@@ -75,7 +75,7 @@ export function DesktopNavigation(props) {
               about
             </NavigationButton>
             <NavigationButton href="#how">
-              how to buy
+              Buy
             </NavigationButton>
             <MenuDropdown></MenuDropdown>
             <NavigationButton href="#token">

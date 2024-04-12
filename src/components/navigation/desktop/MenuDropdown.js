@@ -79,70 +79,70 @@ export function MenuDropdown(props) {
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.etherum`}
+              to={`/lonkonbos.near/widget/page.etherum`}
             >
               from Ethereum
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.solana`}
+              to={`/lonkonbos.near/widget/page.solana`}
             >
               from Solana
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Arbitrum
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Optimism
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Polygon
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Fantom
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Avalance
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from BSC
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from SUI
             </NavLink>
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/louisdevzz.near/widget/Lonk.evm`}
+              to={`/lonkonbos.near/widget/page.evm`}
             >
               from Aptos
             </NavLink>

@@ -210,52 +210,52 @@ export function Menu(props) {
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.etherum">
+            <NavigationButton href="/lonkonbos.near/widget/page.etherum">
              - from Ethereum        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.solana">
+            <NavigationButton href="/lonkonbos.near/widget/page.solana">
              - from Solana        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Arbitrum        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Optimism        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Polygon        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Fantom        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Avalance        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/Lonk.evm">
              - from BSC        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from SUI        
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/louisdevzz.near/widget/Lonk.evm">
+            <NavigationButton href="/lonkonbos.near/widget/page.evm">
              - from Aptos        
             </NavigationButton>
           </li>

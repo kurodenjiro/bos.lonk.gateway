@@ -210,7 +210,7 @@ export function Menu(props) {
             </NavigationButton>
           </li>
           <li>
-            <NavigationButton href="/lonkonbos.near/widget/page.etherum">
+            <NavigationButton href="/lonkonbos.near/widget/page.ethereum">
              - from Ethereum        
             </NavigationButton>
           </li>

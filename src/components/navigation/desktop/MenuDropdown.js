@@ -79,7 +79,7 @@ export function MenuDropdown(props) {
             <NavLink
               className="dropdown-item"
               type="button"
-              to={`/lonkonbos.near/widget/page.etherum`}
+              to={`/lonkonbos.near/widget/page.ethereum`}
             >
               from Ethereum
             </NavLink>
